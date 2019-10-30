@@ -1,3 +1,58 @@
+*{
+  text-align: center;
+}
+body{
+  background-image: url(/css/mohammad-alizade-XgeZu2jBaVI-unsplash.jpg);
+  background-size: cover;
+}
 h2{
-    color: red;
+    color: #003333;
+    background-color: #99CCCC;
+    text-align: center;
+    border: 5px solid white;
+    cursor: pointer;
+}
+p{
+  color:green;
+  border: 5px solid #333333;
+  font-size: 120%;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 20px;
+  font-family: 'Raleway', sans-serif;
+
+}
+li{
+  list-style: none;
+  display: inline-block;
+  color: white;
+}
+a{
+  color: #99CCCC;
+}
+.webtext:first-child{
+  border: 5px dashed black;
+}
+.active{
+  color: red;
+}
+.unactive{
+  color:blue;
+}
+#div1{
+  background: rgb(0,0,255,0.2);
+}
+#div2{
+  background: rgba(255, 0, 0, 0.2);
+}
+#para{
+  color: black;
+}
+img{
+  float: left;
+}
+footer{
+  font-size: 20px;
+  clear: both;
+  text-align: center;
 }
