@@ -31,7 +31,7 @@ body{
   top: 0;
   width: 100%
 }
-@@media  only screen(max-width: 600px) {
+@media  only screen(max-width: 600px) {
   .main-nav{
     font-size: 0.5em;
     padding: 0;
@@ -130,4 +130,8 @@ footer{
     background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
     background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+.turquoise{
+  background: rgb(28,30,31);
+background: linear-gradient(90deg, rgba(28,30,31,1) 37%, rgba(2,212,255,1) 100%);
 }
