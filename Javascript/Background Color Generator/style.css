@@ -25,3 +25,12 @@ h3 {
     letter-spacing: 0.01em;
 
 }
+button{
+  width: 80px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 15px;
+  background: grey;
+  border-color: black;
+  border-radius: 15px;
+}
