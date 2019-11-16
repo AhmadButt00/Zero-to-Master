@@ -28,9 +28,7 @@ h3 {
 button{
   width: 80px;
   height: 30px;
-  font-family: Roboto;
+  font: 'Raleway', sans-serif;
   font-size: 15px;
-  background: grey;
-  border-color: black;
   border-radius: 15px;
 }

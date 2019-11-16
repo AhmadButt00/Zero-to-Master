@@ -19,6 +19,11 @@ function setrandomcolor() {
   color1.value = randomColor();
   color2.value=randomColor();
   setGradient();
+  random.style.background = 	"linear-gradient(to left, "
+  	+ color1.value
+  	+ ", "
+  	+ color2.value
+  	+ ")";;
 }
 
 
